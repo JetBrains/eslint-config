@@ -1,7 +1,8 @@
 module.exports = {
   "rules": {
     "no-unused-expressions": 0,
-    "bdd/focus": 2
+    "bdd/focus": 2,
+    "bdd/exclude": 0
   },
   "env": {
     "mocha": true
