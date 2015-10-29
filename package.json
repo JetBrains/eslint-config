@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "JetBrains config for ESLint",
   "main": "index.js",
+  "files": [
+    "*.js"
+  ],
   "repository": {
     "type": "git",
     "url": "<internal-git-host>/jetbrains-config-eslint.git"
+  },
+  "publishConfig": {
+    "registry": "<internal-npm-publish-repo>"
   },
   "keywords": [
     "eslint",
