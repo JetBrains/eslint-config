@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-jetbrains",
+  "version": "1.0.0",
+  "description": "JetBrains config for ESLint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "<internal-git-host>/jetbrains-config-eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "eslint-plugin-angular": "0.13.0",
+    "eslint-plugin-bdd": "1.1.0",
+    "eslint-plugin-filenames": "0.1.2",
+    "eslint-plugin-react": "3.6.3"
+  }
+}
