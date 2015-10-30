@@ -112,7 +112,7 @@ module.exports = {
     "consistent-this": [2, "self"],
     "eol-last": 2,
     "func-names": 2,
-    "func-style": [2, "expression", {"allowArrowFunctions": true}],
+    "func-style": [2, "declaration", {"allowArrowFunctions": true}],
     "id-length": 0,
     "id-match": 2,
     "indent": [2, 2, {"SwitchCase": 1}],
