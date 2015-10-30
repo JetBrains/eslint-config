@@ -109,7 +109,7 @@ module.exports = {
     "comma-spacing": [2, {"before": false, "after": true}],
     "comma-style": [2, "last"],
     "computed-property-spacing": 2,
-    "consistent-this": [2, "self"],
+    "consistent-this": [2, "this"],
     "eol-last": 2,
     "func-names": 2,
     "func-style": [2, "declaration", {"allowArrowFunctions": true}],
