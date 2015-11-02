@@ -16,9 +16,16 @@ module.exports = {
     "prefer-reflect": 2,
     "prefer-spread": 2,
     "prefer-template": 2,
-    "require-yield": 2
+    "require-yield": 2,
+    "modules/no-define": 2,
+    "modules/no-cjs": 2,
+    "modules/no-exports-typo": 2,
+    "modules/no-mix-default-named": 2
   },
   "env": {
     "es6": true
-  }
+  },
+  "plugins": [
+    "modules"
+  ]
 };
