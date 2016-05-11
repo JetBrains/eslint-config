@@ -19,17 +19,10 @@
   ],
   "license": "UNLICENSED",
   "dependencies": {
-    "eslint-plugin-angular": "0.13.0",
-    "eslint-plugin-bdd": "1.1.0",
-    "eslint-plugin-filenames": "0.1.2",
+    "eslint-plugin-angular": "1.0.1",
+    "eslint-plugin-bdd": "2.1.0",
+    "eslint-plugin-filenames": "0.2.0",
     "eslint-plugin-modules": "1.1.1",
-    "eslint-plugin-react": "3.6.3"
-  },
-  "peerDependencies": {
-    "eslint-plugin-angular": "0.13.0",
-    "eslint-plugin-bdd": "1.1.0",
-    "eslint-plugin-filenames": "0.1.2",
-    "eslint-plugin-modules": "1.1.1",
-    "eslint-plugin-react": "3.6.3"
+    "eslint-plugin-react": "5.1.1"
   }
 }

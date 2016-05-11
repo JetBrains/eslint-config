@@ -1,12 +1,12 @@
 module.exports = {
   "rules": {
-    "react/display-name": [2, {"acceptTranspilerName": true}],
+    "react/display-name": 2,
     "react/forbid-prop-types": 0,
     "react/jsx-boolean-value": [2, "always"],
     "react/jsx-closing-bracket-location": [2, "tag-aligned"],
     "react/jsx-curly-spacing": [2, "never"],
     "react/jsx-indent-props": [2, 2],
-    "react/jsx-max-props-per-line": [2, 1],
+    "react/jsx-max-props-per-line": [2, { "maximum": 1 }],
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-no-literals": 2,
     "react/jsx-no-undef": 2,
