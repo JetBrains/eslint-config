@@ -7,7 +7,7 @@ module.exports = {
     "constructor-super": 2,
     "generator-star-spacing": [2, {"before": false, "after": true}],
     "no-class-assign": 2,
-    "no-confusing-arrow": 2,
+    "no-confusing-arrow": [2, {"allowParens": true}],
     "no-const-assign": 2,
     "no-constant-condition": 2,
     "no-dupe-class-members": 2,
