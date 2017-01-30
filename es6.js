@@ -23,7 +23,7 @@ module.exports = {
     "modules/no-define": 2,
     "modules/no-cjs": 2,
     "modules/no-exports-typo": 2,
-    "modules/no-mix-default-named": 2
+    "modules/no-mix-default-named": 0
   },
   "env": {
     "es6": true
