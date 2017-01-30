@@ -1,4 +1,7 @@
 module.exports = {
+  "globals": {
+    "require": false
+  },
   "rules": {
     // Possible Errors
     "comma-dangle": [2, "never"],
