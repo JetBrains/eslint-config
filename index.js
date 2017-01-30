@@ -1,6 +1,7 @@
 module.exports = {
   "globals": {
-    "require": false
+    "require": false,
+    "process": false
   },
   "rules": {
     // Possible Errors
