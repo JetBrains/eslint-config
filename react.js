@@ -18,7 +18,7 @@ module.exports = {
     "react/no-did-mount-set-state": [2, "allow-in-func"],
     "react/no-did-update-set-state": [2, "allow-in-func"],
     "react/no-direct-mutation-state": 2,
-    "react/no-multi-comp": 2,
+    "react/no-multi-comp": [2, { "ignoreStateless": true }],
     "react/no-set-state": 0,
     "react/no-unknown-property": 2,
     "react/prefer-es6-class": 2,
