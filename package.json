@@ -22,6 +22,6 @@
     "eslint-plugin-angular": "1.0.1",
     "eslint-plugin-bdd": "2.1.0",
     "eslint-plugin-modules": "1.1.1",
-    "eslint-plugin-react": "5.1.1"
+    "eslint-plugin-react": "6.9.0"
   }
 }
