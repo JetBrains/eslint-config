@@ -14,9 +14,10 @@ module.exports = {
     "react/jsx-sort-props": 0,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
+    "react/jsx-wrap-multilines": 2,
     "react/no-danger": 0,
-    "react/no-did-mount-set-state": [2, "allow-in-func"],
-    "react/no-did-update-set-state": [2, "allow-in-func"],
+    "react/no-did-mount-set-state": 2,
+    "react/no-did-update-set-state": 2,
     "react/no-direct-mutation-state": 2,
     "react/no-multi-comp": [2, { "ignoreStateless": true }],
     "react/no-set-state": 0,
@@ -26,8 +27,7 @@ module.exports = {
     "react/react-in-jsx-scope": 2,
     "react/require-extension": 0,
     "react/self-closing-comp": 2,
-    "react/sort-comp": 0,
-    "react/wrap-multilines": 2
+    "react/sort-comp": 0
   },
   "plugins": [
     "react"
