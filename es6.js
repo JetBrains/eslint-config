@@ -20,15 +20,25 @@ module.exports = {
     "prefer-spread": 2,
     "prefer-template": 2,
     "require-yield": 2,
-    "modules/no-define": 2,
-    "modules/no-cjs": 2,
-    "modules/no-exports-typo": 2,
-    "modules/no-mix-default-named": 0
+    "import/no-unresolved": 2,
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/default": 2,
+    "import/no-absolute-path": 2,
+    "import/export": 2,
+    "import/no-mutable-exports": 2,
+    "import/no-amd": 2,
+    "import/no-commonjs": 2,
+    "import/first": 2,
+    "import/no-duplicates": 2,
+    "import/extensions": [2, "always", { "js": "never" }],
+    "import/newline-after-import": 2,
+    "import/no-named-default": 2
   },
   "env": {
     "es6": true
   },
   "plugins": [
-    "modules"
+    "import"
   ]
 };
