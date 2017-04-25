@@ -18,7 +18,7 @@ module.exports = {
     "react/jsx-no-undef": 2,
     "react/jsx-pascal-case": 2,
     "react/jsx-sort-props": 0,
-    "react/jsx-tag-spacing": 2,
+    "react/jsx-tag-spacing": [2, { "beforeSelfClosing": "never" }],
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/jsx-wrap-multilines": 2,
