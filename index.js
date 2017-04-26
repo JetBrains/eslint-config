@@ -103,7 +103,7 @@ module.exports = {
     "no-undef": 2,
     "no-undefined": 0,
     "no-unused-vars": 2,
-    "no-use-before-define": 2,
+    "no-use-before-define": [2, "nofunc"],
     /// Stylistic Issues
     "array-bracket-spacing": 2,
     "block-spacing": 2,
