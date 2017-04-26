@@ -124,7 +124,12 @@ module.exports = {
     "keyword-spacing": 2,
     "linebreak-style": 2,
     "lines-around-comment": 0,
-    "max-len": [2, {"ignoreComments": true, "ignoreTemplateLiterals": true, "ignoreRegExpLiterals": true}],
+    "max-len": [2, {
+      "ignoreComments": true,
+      "ignoreTemplateLiterals": true,
+      "ignoreRegExpLiterals": true,
+      "ignoreStrings": true
+    }],
     "max-nested-callbacks": 0, // useless, only function with name call
     "new-cap": 2,
     "new-parens": 2,
