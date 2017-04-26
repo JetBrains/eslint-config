@@ -128,7 +128,7 @@ module.exports = {
       "ignoreComments": true,
       "ignoreTemplateLiterals": true,
       "ignoreRegExpLiterals": true,
-      "ignoreStrings": true
+      "ignorePattern": "\"[^\"]{40,}\"|'[^']{40,}'"
     }],
     "max-nested-callbacks": 0, // useless, only function with name call
     "new-cap": 2,
