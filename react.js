@@ -1,4 +1,7 @@
 module.exports = {
+  "plugins": [
+    "react"
+  ],
   "rules": {
     "react/display-name": 2,
     "react/forbid-prop-types": 0,
