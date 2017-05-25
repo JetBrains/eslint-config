@@ -1,8 +1,4 @@
 module.exports = {
-  "globals": {
-    "require": false,
-    "process": false
-  },
   "rules": {
     // Possible Errors
     "comma-dangle": [2, "never"],
@@ -168,8 +164,5 @@ module.exports = {
     "space-unary-ops": [2, {"words": true, "nonwords": false}],
     "spaced-comment": 0,
     "wrap-regex": 0
-  },
-  "env": {
-    "browser": true
   }
 };

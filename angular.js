@@ -1,4 +1,7 @@
 module.exports = {
+  "plugins": [
+    "angular"
+  ],
   "rules": {
     "angular/angularelement": 0,
     "angular/component-limit": 0,
@@ -47,8 +50,5 @@ module.exports = {
     "angular/typecheck-string": 0,
     "angular/watchers-execution": 0,
     "angular/window-service": 0
-  },
-  "plugins": [
-    "angular"
-  ]
+  }
 };

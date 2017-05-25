@@ -42,8 +42,5 @@ module.exports = {
     "react/sort-comp": 2,
     "react/style-prop-object": 2,
     "react/void-dom-elements-no-children": 2
-  },
-  "plugins": [
-    "react"
-  ]
+  }
 };

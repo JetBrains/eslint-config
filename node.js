@@ -1,4 +1,7 @@
 module.exports = {
+  "env": {
+    "node": true
+  },
   "rules": {
     // Possible Errors
     "no-console": 0,
@@ -12,8 +15,5 @@ module.exports = {
     "no-process-exit": 2,
     "no-restricted-modules": 0,
     "no-sync": 0
-  },
-  "env": {
-    "node": true
   }
 };

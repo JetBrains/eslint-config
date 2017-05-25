@@ -1,4 +1,10 @@
 module.exports = {
+  "env": {
+    "es6": true
+  },
+  "plugins": [
+    "import"
+  ],
   "rules": {
     // ES6
     "arrow-body-style": [2, "as-needed"],
@@ -34,11 +40,5 @@ module.exports = {
     "import/order": [2, {"newlines-between": "always"}],
     "import/newline-after-import": 2,
     "import/no-named-default": 2
-  },
-  "env": {
-    "es6": true
-  },
-  "plugins": [
-    "import"
-  ]
+  }
 };

@@ -3,6 +3,7 @@
 ## Package contains several configs
 
 `jetbrains`: basic rules  
+`jetbrains/browser`: browser rules and environment
 `jetbrains/bem`: bem-flavored filenames rule
 `jetbrains/es6`: es6 rules and environment 
 `jetbrains/node`: node rules and environment
@@ -17,6 +18,7 @@
   "parser": "babel-eslint",
   "extends": [
     "jetbrains",
+    "jetbrains/browser",
     "jetbrains/bem",
     "jetbrains/es6",
     "jetbrains/node",
