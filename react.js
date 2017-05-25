@@ -23,7 +23,10 @@ module.exports = {
     "react/jsx-uses-vars": 2,
     "react/jsx-wrap-multilines": 2,
     "react/no-array-index-key": 2,
+    "react/no-children-prop": 2,
     "react/no-danger": 0,
+    "react/no-danger-with-children": 2,
+    "react/no-deprecated": 2,
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-direct-mutation-state": 2,
@@ -38,9 +41,7 @@ module.exports = {
     "react/self-closing-comp": 2,
     "react/sort-comp": 2,
     "react/style-prop-object": 2,
-
-    // don't turn on unless https://github.com/yannickcr/eslint-plugin-react/issues/1101 is resolved
-    "react/void-dom-elements-no-children": 0
+    "react/void-dom-elements-no-children": 2
   },
   "plugins": [
     "react"
