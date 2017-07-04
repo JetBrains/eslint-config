@@ -2,13 +2,13 @@
 
 ## Package contains several configs
 
-`@jetbrains`: basic rules<br />  
-`@jetbrains/eslint-config/browser`: browser rules and environment<br />
-`@jetbrains/eslint-config/es6`: es6 rules and environment<br /> 
-`@jetbrains/eslint-config/node`: node rules and environment<br />
-`@jetbrains/eslint-config/react`: rules for [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)<br /> 
-`@jetbrains/eslint-config/angular`:  rules for [eslint-plugin-angular](https://github.com/Gillespie59/eslint-plugin-angular)<br /> 
-`@jetbrains/eslint-config/test`: mocha, jasmine, chai, sinon rules and environment<br /> 
+`@jetbrains` basic rules<br />
+`@jetbrains/eslint-config/browser` browser rules and environment<br />
+`@jetbrains/eslint-config/es6` es6 rules and environment<br /> 
+`@jetbrains/eslint-config/node` node rules and environment<br />
+`@jetbrains/eslint-config/react` rules for [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)<br /> 
+`@jetbrains/eslint-config/angular`  rules for [eslint-plugin-angular](https://github.com/Gillespie59/eslint-plugin-angular)<br /> 
+`@jetbrains/eslint-config/test` mocha, jasmine, chai, sinon rules and environment<br /> 
 
 ## Usage example
 
