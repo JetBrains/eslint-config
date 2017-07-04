@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-jetbrains",
-  "version": "3.0.0-alpha.1",
+  "name": "@jetbrains/eslint-config",
+  "version": "1.0.0",
   "description": "JetBrains config for ESLint",
   "author": "JetBrains",
   "license": "Apache-2.0",
