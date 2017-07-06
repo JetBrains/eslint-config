@@ -6,7 +6,6 @@ module.exports = {
     "bdd"
   ],
   "globals": {
-    "expect": false,
     "sinon": false,
     "should": false
   },
