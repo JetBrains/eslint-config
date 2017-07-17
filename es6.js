@@ -37,7 +37,7 @@ module.exports = {
     "import/first": 2,
     "import/no-duplicates": 2,
     "import/extensions": [2, "always", {"js": "never"}],
-    "import/order": [2, {"newlines-between": "always"}],
+    "import/order": [2, {"newlines-between": "always-and-inside-groups"}],
     "import/newline-after-import": 2,
     "import/no-named-default": 2
   }

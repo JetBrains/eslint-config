@@ -1,6 +1,7 @@
 module.exports = {
   "rules": {
     // Possible Errors
+    "getter-return": 2,
     "comma-dangle": [2, "never"],
     "no-cond-assign": [2, "except-parens"],
     "no-console": 2,
@@ -128,9 +129,9 @@ module.exports = {
       "ignorePattern": "\"(?=([^\"]|\\\"){40,}\")|'(?=([^']|\\'){40,}')"
     }],
     "max-nested-callbacks": 0, // useless, only function with name call
+    "multiline-ternary": [2, "always-multiline"],
     "new-cap": 2,
     "new-parens": 2,
-    "newline-after-var": 0,
     "no-array-constructor": 2,
     "no-continue": 0,
     "no-inline-comments": 0,
@@ -143,9 +144,10 @@ module.exports = {
     "no-restricted-syntax": 2,
     "no-spaced-func": 2,
     "no-ternary": 0,
-    "no-trailing-spaces": 2,
+    "no-trailing-spaces": [2, {"ignoreComments": true}],
     "no-underscore-dangle": 0,
     "no-unneeded-ternary": 2,
+    "object-curly-newline": [2, {"consistent": true}],
     "object-curly-spacing": 2,
     "one-var": [2, "never"],
     "operator-assignment": [2, "always"],
@@ -156,6 +158,7 @@ module.exports = {
     "require-jsdoc": 0,
     "semi-spacing": [2, {"before": false, "after": true}],
     "semi": [2, "always"],
+    "semi-style": [2, "last"],
     "sort-vars": 0,
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
@@ -163,6 +166,7 @@ module.exports = {
     "space-infix-ops": 2,
     "space-unary-ops": [2, {"words": true, "nonwords": false}],
     "spaced-comment": 0,
+    "switch-colon-spacing": [2, {"after": true, "before": false}],
     "wrap-regex": 0
   }
 };
