@@ -5,7 +5,7 @@ module.exports = {
   "rules": {
     "react/display-name": 2,
     "react/forbid-prop-types": 0,
-    "react/jsx-boolean-value": [2, "always"],
+    "react/jsx-boolean-value": [2, "never"],
     "react/jsx-closing-bracket-location": [2, "tag-aligned"],
     // turn back on when https://github.com/yannickcr/eslint-plugin-react/pull/1292 gets published
     "react/jsx-curly-spacing": [0, {"when": "never", "children": true}],
