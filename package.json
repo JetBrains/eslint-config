@@ -4,7 +4,7 @@
   "description": "JetBrains config for ESLint",
   "author": "JetBrains",
   "license": "Apache-2.0",
-  "main": "base.js",
+  "main": "index.js",
   "files": [
     "*.js",
     "README.md"
