@@ -1,44 +1,46 @@
+const {error} = require('./consts');
+
 module.exports = {
-  "env": {
-    "es6": true
+  env: {
+    es6: true
   },
-  "plugins": [
-    "import"
+  plugins: [
+    'import'
   ],
-  "rules": {
+  rules: {
     // ES6
-    "arrow-body-style": [2, "as-needed"],
-    "arrow-parens": [2, "as-needed"],
-    "arrow-spacing": [2, {"before": true, "after": true}],
-    "constructor-super": 2,
-    "generator-star-spacing": [2, {"before": false, "after": true}],
-    "no-class-assign": 2,
-    "no-confusing-arrow": [2, {"allowParens": true}],
-    "no-const-assign": 2,
-    "no-constant-condition": 2,
-    "no-dupe-class-members": 2,
-    "no-this-before-super": 2,
-    "no-var": 2,
-    "object-shorthand": 2,
-    "prefer-arrow-callback": [2, {"allowNamedFunctions": true}],
-    "prefer-const": 2,
-    "prefer-spread": 2,
-    "prefer-template": 2,
-    "require-yield": 2,
-    "import/no-unresolved": 2,
-    "import/named": 2,
-    "import/namespace": 2,
-    "import/default": 2,
-    "import/no-absolute-path": 2,
-    "import/export": 2,
-    "import/no-mutable-exports": 2,
-    "import/no-amd": 2,
-    "import/no-commonjs": 2,
-    "import/first": 2,
-    "import/no-duplicates": 2,
-    "import/extensions": [2, "always", {"js": "never"}],
-    "import/order": [2, {"newlines-between": "always-and-inside-groups"}],
-    "import/newline-after-import": 2,
-    "import/no-named-default": 2
+    'arrow-body-style': [error, 'as-needed'],
+    'arrow-parens': [error, 'as-needed'],
+    'arrow-spacing': [error, {before: true, after: true}],
+    'constructor-super': error,
+    'generator-star-spacing': [error, {before: false, after: true}],
+    'no-class-assign': error,
+    'no-confusing-arrow': [error, {allowParens: true}],
+    'no-const-assign': error,
+    'no-constant-condition': error,
+    'no-dupe-class-members': error,
+    'no-this-before-super': error,
+    'no-var': error,
+    'object-shorthand': error,
+    'prefer-arrow-callback': [error, {allowNamedFunctions: true}],
+    'prefer-const': error,
+    'prefer-spread': error,
+    'prefer-template': error,
+    'require-yield': error,
+    'import/no-unresolved': error,
+    'import/named': error,
+    'import/namespace': error,
+    'import/default': error,
+    'import/no-absolute-path': error,
+    'import/export': error,
+    'import/no-mutable-exports': error,
+    'import/no-amd': error,
+    'import/no-commonjs': error,
+    'import/first': error,
+    'import/no-duplicates': error,
+    'import/extensions': [error, 'always', {js: 'never'}],
+    'import/order': [error, {'newlines-between': 'always-and-inside-groups'}],
+    'import/newline-after-import': error,
+    'import/no-named-default': error
   }
 };

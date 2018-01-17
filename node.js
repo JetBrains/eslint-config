@@ -1,19 +1,21 @@
+const {ignore, error} = require('./consts');
+
 module.exports = {
-  "env": {
-    "node": true
+  env: {
+    node: true
   },
-  "rules": {
+  rules: {
     // Possible Errors
-    "no-console": 0,
+    'no-console': ignore,
     // Node.js and CommonJS
-    "callback-return": 0,
-    "global-require": 0,
-    "handle-callback-err": 2,
-    "no-mixed-requires": 2,
-    "no-new-require": 2,
-    "no-path-concat": 2,
-    "no-process-exit": 2,
-    "no-restricted-modules": 0,
-    "no-sync": 0
+    'callback-return': ignore,
+    'global-require': ignore,
+    'handle-callback-err': error,
+    'no-mixed-requires': error,
+    'no-new-require': error,
+    'no-path-concat': error,
+    'no-process-exit': error,
+    'no-restricted-modules': ignore,
+    'no-sync': ignore
   }
 };

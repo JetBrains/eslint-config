@@ -1,9 +1,9 @@
 module.exports = {
-  "env": {
-    "browser": true
+  env: {
+    browser: true
   },
-  "globals": {
-    "require": false,
-    "process": false
+  globals: {
+    require: false,
+    process: false
   }
 };

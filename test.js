@@ -1,17 +1,19 @@
+const {ignore, error} = require('./consts');
+
 module.exports = {
-  "env": {
-    "mocha": true
+  env: {
+    mocha: true
   },
-  "plugins": [
-    "bdd"
+  plugins: [
+    'bdd'
   ],
-  "globals": {
-    "sinon": false,
-    "should": false
+  globals: {
+    sinon: false,
+    should: false
   },
-  "rules": {
-    "no-unused-expressions": 0,
-    "bdd/focus": 2,
-    "bdd/exclude": 0
+  rules: {
+    'no-unused-expressions': ignore,
+    'bdd/focus': error,
+    'bdd/exclude': ignore
   }
 };
