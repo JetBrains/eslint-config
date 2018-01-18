@@ -34,6 +34,7 @@ module.exports = {
     'valid-typeof': error,
     /// Best Practices
     'accessor-pairs': error,
+    'array-callback-return': error,
     'block-scoped-var': error,
     complexity: [error, MAX_SPECIFICITY],
     'consistent-return': error,

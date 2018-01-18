@@ -30,6 +30,7 @@ module.exports = {
       ignorePattern: '"(?=([^"]|\\"){40,}")|\'(?=([^\']|\\\'){40,}\')'
     }],
     'max-nested-callbacks': ignore, // useless, only function with name call
+    // 'multiline-comment-style': [error, 'bare-block'],
     'multiline-ternary': [error, 'always-multiline'],
     'new-cap': error,
     'new-parens': error,

@@ -14,6 +14,7 @@ module.exports = {
     'arrow-spacing': [error, {before: true, after: true}],
     'constructor-super': error,
     'generator-star-spacing': [error, {before: false, after: true}],
+    'lines-between-class-members': [error, 'always', {exceptAfterSingleLine: true}],
     'no-class-assign': error,
     'no-confusing-arrow': [error, {allowParens: true}],
     'no-const-assign': error,

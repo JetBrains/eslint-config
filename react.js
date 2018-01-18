@@ -5,12 +5,12 @@ module.exports = {
     'react'
   ],
   rules: {
+    'react/button-has-type': [error, {submit: false, reset: false}],
     'react/display-name': error,
     'react/forbid-prop-types': ignore,
     'react/jsx-boolean-value': [error, 'never'],
     'react/jsx-closing-bracket-location': [error, 'tag-aligned'],
-    // turn back on when https://github.com/yannickcr/eslint-plugin-react/pull/1292 gets published
-    'react/jsx-curly-spacing': [ignore, {when: 'never', children: true}],
+    'react/jsx-curly-spacing': [error, {when: 'never', children: true}],
     'react/jsx-equals-spacing': [error, 'never'],
     'react/jsx-first-prop-new-line': error,
     'react/jsx-indent': [error, INDENT],
@@ -27,7 +27,16 @@ module.exports = {
     'react/jsx-tag-spacing': [error, {beforeSelfClosing: 'never'}],
     'react/jsx-uses-react': error,
     'react/jsx-uses-vars': error,
-    'react/jsx-wrap-multilines': error,
+    'react/jsx-wrap-multilines': [error, {
+      declaration: 'parens-new-line',
+      assignment: 'parens-new-line',
+      return: 'parens-new-line',
+      arrow: 'parens-new-line',
+      condition: 'parens-new-line',
+      logical: 'parens-new-line',
+      prop: 'parens-new-line'
+    }],
+    'react/no-access-state-in-setstate': error,
     'react/no-array-index-key': error,
     'react/no-children-prop': error,
     'react/no-danger': ignore,
