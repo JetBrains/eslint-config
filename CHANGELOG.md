@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/JetBrains/eslint-config/compare/v3.0.2...v3.1.0) (2018-01-18)
+
+
+### Features
+
+* Extract stylistic rules ([3805acc](https://github.com/JetBrains/eslint-config/commit/3805acc))
+* Updated README.md ([5cb3747](https://github.com/JetBrains/eslint-config/commit/5cb3747))
+* **[publish]:** Add new rules ([f4f714b](https://github.com/JetBrains/eslint-config/commit/f4f714b))
+
+
+
 <a name="3.0.2"></a>
 ## [3.0.2](https://github.com/JetBrains/eslint-config/compare/v3.0.1...v3.0.2) (2017-11-05)
 
