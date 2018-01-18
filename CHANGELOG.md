@@ -58,7 +58,6 @@ Added rules:
  * [`switch-colon-spacing`](http://eslint.org/docs/rules/switch-colon-spacing)
 
 Added options:
- *
  * `{"ignoreComments": true}` for [`no-trailing-spaces`](http://eslint.org/docs/rules/no-trailing-spaces)
  * `{"newlines-between": "always-and-inside-groups"}` for [`import/order`](https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/order.md)
 
