@@ -3,25 +3,23 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="4.0.1"></a>
-## [4.0.1](https://github.com/JetBrains/eslint-config/compare/v4.0.0...v4.0.1) (2018-01-18)
+# [4.0.1](https://github.com/JetBrains/eslint-config/compare/v3.0.2...v4.0.1) (2018-01-18)
 
 
+### BREAKING CHANGES
 
-<a name="4.0.0"></a>
-# [4.0.0](https://github.com/JetBrains/eslint-config/compare/v4.0.0-0...v4.0.0) (2018-01-18)
+* eslint@4.10.0 or higher is now a peer dependency
+* Extract stylistic rules ([#1](https://github.com/JetBrains/eslint-config/pull/1https://github.com/JetBrains/eslint-config/pull/1))
 
+#### Added rules:
+* [`array-callback-return`](https://eslint.org/docs/rules/array-callback-return)
+* [`lines-between-class-members`](https://eslint.org/docs/rules/lines-between-class-members)
+* [`react/button-has-type`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/button-has-type.md)
+* [`react/no-access-state-in-setstate`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md)
+* [`react/jsx-curly-spacing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md) was enabled again
 
-
-<a name="3.1.0"></a>
-# [3.1.0](https://github.com/JetBrains/eslint-config/compare/v3.0.2...v3.1.0) (2018-01-18)
-
-
-### Features
-
-* Extract stylistic rules ([3805acc](https://github.com/JetBrains/eslint-config/commit/3805acc))
-* Updated README.md ([5cb3747](https://github.com/JetBrains/eslint-config/commit/5cb3747))
-* **[publish]:** Add new rules ([f4f714b](https://github.com/JetBrains/eslint-config/commit/f4f714b))
-
+### Added options:
+* `parens-new-line` in all contexts for [`react/jsx-wrap-multilines`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md#rule-details)
 
 
 <a name="3.0.2"></a>
