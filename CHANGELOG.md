@@ -18,7 +18,7 @@ All notable changes to this project will be documented in this file. See [standa
 * [`react/no-access-state-in-setstate`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md)
 * [`react/jsx-curly-spacing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md) was enabled again
 
-### Added options:
+#### Added options:
 * `parens-new-line` in all contexts for [`react/jsx-wrap-multilines`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md#rule-details)
 
 
