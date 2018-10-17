@@ -31,6 +31,18 @@
 }
 ```
 
+## Usage with Prettier
+
+If you're using this ESLint config with [Prettier](https://prettier.io), make 
+sure that you disable `arrow-body-style` rule in eslint config, because it conflicts
+with with prettier rules:
+
+```json
+"rules": {
+  "arrow-body-style": "off"
+}
+``` 
+
 **Note to maintainers**: to trigger publishing of the npm package append *\[Publish\]* to the commit message. For example:
 
 *Tweaked the rules \[Publish\]*
