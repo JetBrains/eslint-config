@@ -33,9 +33,8 @@
 
 ## Usage with Prettier
 
-If you're using this ESLint config with [Prettier](https://prettier.io), make 
-sure that you disable `arrow-body-style` rule in eslint config, because it conflicts
-with with prettier rules:
+If you're using this ESLint config with [Prettier](https://prettier.io), make  sure that you disable 
+the `arrow-body-style` rule in the ESLint config, because it conflicts with Prettier rules:
 
 ```json
 "rules": {
