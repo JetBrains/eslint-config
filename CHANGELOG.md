@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/JetBrains/eslint-config/compare/v4.0.6...v5.0.0) (2019-08-09)
+
+
+### Build System
+
+* **package.json:** moved eslint dependencies to peer- and devDependencies ([b41828c](https://github.com/JetBrains/eslint-config/commit/b41828c))
+
+
+### BREAKING CHANGES
+
+* **package.json:** eslint-plugin-* are now peerDependencies
+
+
+
 ### [4.0.6](https://github.com/JetBrains/eslint-config/compare/v4.0.5...v4.0.6) (2019-07-08)
 
 
