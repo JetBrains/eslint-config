@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.2.1](https://github.com/JetBrains/eslint-config/compare/v5.2.0...v5.2.1) (2019-11-11)
+
+
+### Bug Fixes
+
+* **react [publish]:** specify version: detect to supress warning ([36ad62d](https://github.com/JetBrains/eslint-config/commit/36ad62d064506f67d90561eb1d8465ab8863b100))
+
 ## [5.2.0](https://github.com/JetBrains/eslint-config/compare/v5.1.0...v5.2.0) (2019-11-11)
 
 
