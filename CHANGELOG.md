@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.0](https://github.com/JetBrains/eslint-config/compare/v5.1.0...v5.2.0) (2019-11-11)
+
+
+### Features
+
+* **import:** add rules ([2da498b](https://github.com/JetBrains/eslint-config/commit/2da498bb695f1e66418e1e6c1436658108988d64))
+* **react:** add eslint-plugin-jsx-a11y ([a9b9daf](https://github.com/JetBrains/eslint-config/commit/a9b9daf2ea3115b12531ca0ed36b8430095cf4a6))
+* **react [publish]:** add more rules ([9bf53cd](https://github.com/JetBrains/eslint-config/commit/9bf53cdb9eb68e3fb7044c5c512f8657bfb02331))
+
 ## [5.1.0](https://github.com/JetBrains/eslint-config/compare/v5.0.0...v5.1.0) (2019-11-11)
 
 
