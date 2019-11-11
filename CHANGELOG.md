@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/JetBrains/eslint-config/compare/v5.0.0...v5.1.0) (2019-11-11)
+
+
+### Features
+
+* **react [publish]:** remove jsx-no-bind ([0f12ec7](https://github.com/JetBrains/eslint-config/commit/0f12ec7b6c5c79c137458bc21fb1288e97b364a9))
+
+
+### Bug Fixes
+
+* **base:** don't report rest siblings as unused variables ([b5689b0](https://github.com/JetBrains/eslint-config/commit/b5689b0cf64482da2c895f7bce4b88aab651f0e5))
+
 ## [5.0.0](https://github.com/JetBrains/eslint-config/compare/v4.0.6...v5.0.0) (2019-08-09)
 
 
