@@ -35,6 +35,13 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-react": "^7.14.3"
   },
+  "peerDependenciesMeta": {
+    "eslint-import-resolver-webpack": {"optional": true},
+    "eslint-plugin-angular": {"optional": true},
+    "eslint-plugin-bdd": {"optional": true},
+    "eslint-plugin-import": {"optional": true},
+    "eslint-plugin-react": {"optional": true}
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
