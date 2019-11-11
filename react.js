@@ -8,6 +8,11 @@ module.exports = {
   extends: [
     'plugin:jsx-a11y/recommended'
   ],
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   rules: {
     'react/button-has-type': [error, {submit: false, reset: false}],
     'react/display-name': error,
