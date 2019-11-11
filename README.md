@@ -10,8 +10,8 @@
 `@jetbrains/eslint-config/browser` browser rules and environment<br />
 `@jetbrains/eslint-config/es6` ES6 rules and environment, including [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)<br /> 
 `@jetbrains/eslint-config/node` Node.js rules and environment<br />
-`@jetbrains/eslint-config/react` rules for [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)<br /> 
-`@jetbrains/eslint-config/angular`  rules for [eslint-plugin-angular](https://github.com/Gillespie59/eslint-plugin-angular)<br /> 
+`@jetbrains/eslint-config/react` rules for [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) and [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)<br /> 
+`@jetbrains/eslint-config/angular` rules for [eslint-plugin-angular](https://github.com/Gillespie59/eslint-plugin-angular)<br /> 
 `@jetbrains/eslint-config/test` mocha, chai, sinon rules and environment, including [eslint-plugin-bdd](https://github.com/Nate-Wilkins/eslint-plugin-bdd)<br /> 
 
 ## Usage example

@@ -2,7 +2,11 @@ const {ignore, error, INDENT} = require('./consts');
 
 module.exports = {
   plugins: [
-    'react'
+    'react',
+    'jsx-a11y'
+  ],
+  extends: [
+    'plugin:jsx-a11y/recommended'
   ],
   rules: {
     'react/button-has-type': [error, {submit: false, reset: false}],
@@ -57,6 +61,8 @@ module.exports = {
     'react/self-closing-comp': error,
     'react/sort-comp': error,
     'react/style-prop-object': error,
-    'react/void-dom-elements-no-children': error
+    'react/void-dom-elements-no-children': error,
+
+    'jsx-a11y/no-autofocus': ignore
   }
 };

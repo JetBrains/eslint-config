@@ -33,6 +33,7 @@
     "eslint-plugin-angular": "^3.3.0 || ^4.0.0",
     "eslint-plugin-bdd": "^2.1.1",
     "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3"
   },
   "peerDependenciesMeta": {
@@ -48,6 +49,7 @@
     "eslint-plugin-import": {
       "optional": true
     },
+    "eslint-plugin-jsx-a11y": {"optional": true},
     "eslint-plugin-react": {
       "optional": true
     }
