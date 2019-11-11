@@ -102,7 +102,7 @@ module.exports = {
     'no-undef-init': error,
     'no-undef': error,
     'no-undefined': ignore,
-    'no-unused-vars': error,
+    'no-unused-vars': [error, {ignoreRestSiblings: true}],
     'no-use-before-define': [error, 'nofunc']
   }
 };
