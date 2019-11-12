@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.3.0](https://github.com/JetBrains/eslint-config/compare/v5.2.1...v5.3.0) (2019-11-12)
+
+
+### Features
+
+* **react [publish]:** add react-hooks plugin ([f0be1ce](https://github.com/JetBrains/eslint-config/commit/f0be1ce4dfb6d471459ac03797c9b1a9839c6e64))
+
 ### [5.2.1](https://github.com/JetBrains/eslint-config/compare/v5.2.0...v5.2.1) (2019-11-11)
 
 
