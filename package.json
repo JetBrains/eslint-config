@@ -34,7 +34,8 @@
     "eslint-plugin-bdd": "^2.1.1",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.2.0"
   },
   "peerDependenciesMeta": {
     "eslint-import-resolver-webpack": {
@@ -53,6 +54,9 @@
       "optional": true
     },
     "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
       "optional": true
     }
   },

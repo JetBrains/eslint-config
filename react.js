@@ -3,6 +3,7 @@ const {ignore, error, INDENT} = require('./consts');
 module.exports = {
   plugins: [
     'react',
+    'react-hooks',
     'jsx-a11y'
   ],
   extends: [
@@ -73,6 +74,9 @@ module.exports = {
     'react/sort-comp': error,
     'react/style-prop-object': error,
     'react/void-dom-elements-no-children': error,
+
+    'react-hooks/rules-of-hooks': error,
+    'react-hooks/exhaustive-deps': error,
 
     'jsx-a11y/no-autofocus': ignore
   }
