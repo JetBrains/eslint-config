@@ -43,7 +43,6 @@ module.exports = {
     'import/order': [error, {'newlines-between': 'always-and-inside-groups'}],
     'import/newline-after-import': error,
     'import/no-named-default': error,
-    'import/no-unused-modules': [error, {unusedExports: true}],
     'import/no-useless-path-segments': [error, {noUselessIndex: true}]
   }
 };
