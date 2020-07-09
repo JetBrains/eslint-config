@@ -14,6 +14,12 @@
 `@jetbrains/eslint-config/angular` rules for [eslint-plugin-angular](https://github.com/Gillespie59/eslint-plugin-angular)<br /> 
 `@jetbrains/eslint-config/test` mocha, chai, sinon rules and environment, including [eslint-plugin-bdd](https://github.com/Nate-Wilkins/eslint-plugin-bdd)<br /> 
 
+## Installation
+
+1. Install ESLint if it is not yet installed in your project: `npm install eslint`
+1. Install JetBrains' config package: `npm install @jetbrains/eslint-config`
+1. JetBrains' configuration don't implicitly install plugins it uses. This approach lets you specify what exactly version you'd like to use. You need to install these peer dependencies, if they are not yet installed in your project: `npm install eslint-import-resolver-webpack eslint-plugin-angular eslint-plugin-bdd eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks`
+
 ## Usage example
 
 ```json
