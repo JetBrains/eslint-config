@@ -18,7 +18,7 @@
 
 1. Install ESLint if it is not yet installed in your project: `npm install eslint`
 1. Install JetBrains' config package: `npm install @jetbrains/eslint-config`
-1. JetBrains' configuration don't implicitly install plugins it uses. This approach lets you specify what exactly version you'd like to use. You need to install these peer dependencies, if they are not yet installed in your project: `npm install eslint-import-resolver-webpack eslint-plugin-angular eslint-plugin-bdd eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks`
+1. JetBrains' configuration doesn't implicitly install plugins it uses. This approach lets you specify what exactly version you'd like to use. You need to install these peer dependencies, if they are not yet installed in your project: `npm install eslint-import-resolver-webpack eslint-plugin-angular eslint-plugin-bdd eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks`
 
 ## Usage example
 
