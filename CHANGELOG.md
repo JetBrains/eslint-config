@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.4.1](https://github.com/JetBrains/eslint-config/compare/v5.3.2...v5.4.1) (2022-05-31)
+
 ### [5.3.2](https://github.com/JetBrains/eslint-config/compare/v5.3.1...v5.3.2) (2022-02-21)
 
 ### [5.3.1](https://github.com/JetBrains/eslint-config/compare/v5.3.0...v5.3.1) (2019-11-13)
