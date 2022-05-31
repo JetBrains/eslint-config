@@ -1,6 +1,6 @@
 {
   "name": "@jetbrains/eslint-config",
-  "version": "5.3.2",
+  "version": "5.4.0",
   "description": "JetBrains config for ESLint",
   "author": "JetBrains",
   "license": "Apache-2.0",
@@ -29,13 +29,13 @@
   },
   "peerDependencies": {
     "eslint": ">=6.0.0",
-    "eslint-import-resolver-webpack": "^0.10.1 || ^0.11.0",
-    "eslint-plugin-angular": "^3.3.0 || ^4.0.0",
-    "eslint-plugin-bdd": "^2.1.1",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^2.2.0"
+    "eslint-import-resolver-webpack": ">=0.13.0",
+    "eslint-plugin-angular": ">=3.3.0",
+    "eslint-plugin-bdd": ">=2.1.1",
+    "eslint-plugin-import": ">=2.13.0",
+    "eslint-plugin-jsx-a11y": ">=6.2.3",
+    "eslint-plugin-react": ">=7.14.3",
+    "eslint-plugin-react-hooks": ">=4.0.0"
   },
   "peerDependenciesMeta": {
     "eslint-import-resolver-webpack": {
