@@ -30,7 +30,6 @@ module.exports = {
     'no-unexpected-multiline': error,
     'no-unreachable': error,
     'use-isnan': error,
-    'valid-jsdoc': error,
     'valid-typeof': error,
     /// Best Practices
     'accessor-pairs': error,

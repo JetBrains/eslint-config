@@ -57,7 +57,6 @@ module.exports = {
     'padded-blocks': ignore,
     'quote-props': [error, 'as-needed'],
     quotes: [error, 'single'],
-    'require-jsdoc': ignore,
     'semi-spacing': [error, {before: false, after: true}],
     semi: [error, 'always'],
     'semi-style': [error, 'last'],
