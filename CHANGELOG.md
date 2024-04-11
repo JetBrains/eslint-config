@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.4.2](https://github.com/JetBrains/eslint-config/compare/v5.4.1...v5.4.2) (2024-04-11)
+
+
+### Bug Fixes
+
+* **[publish]:** remove deprecated rules ([b69dc96](https://github.com/JetBrains/eslint-config/commit/b69dc96ba4381f6ad69281206f4ca2bb9a214466))
+
 ### [5.4.1](https://github.com/JetBrains/eslint-config/compare/v5.3.2...v5.4.1) (2022-05-31)
 
 ### [5.3.2](https://github.com/JetBrains/eslint-config/compare/v5.3.1...v5.3.2) (2022-02-21)
