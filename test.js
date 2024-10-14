@@ -5,7 +5,7 @@ module.exports = {
     mocha: true
   },
   plugins: [
-    'bdd'
+    '@vitest'
   ],
   globals: {
     sinon: false,
@@ -13,7 +13,7 @@ module.exports = {
   },
   rules: {
     'no-unused-expressions': ignore,
-    'bdd/focus': error,
-    'bdd/exclude': ignore
+    '@vitest/no-focused-tests': error,
+    '@vitest/no-disabled-tests': ignore
   }
 };

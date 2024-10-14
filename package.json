@@ -28,23 +28,23 @@
     "standard-version": "^9.0.0"
   },
   "peerDependencies": {
+    "@vitest/eslint-plugin": ">=2.1.1",
     "eslint": ">=6.0.0",
     "eslint-import-resolver-webpack": ">=0.13.0",
     "eslint-plugin-angular": ">=3.3.0",
-    "eslint-plugin-bdd": ">=2.1.1",
     "eslint-plugin-import": ">=2.13.0",
     "eslint-plugin-jsx-a11y": ">=6.2.3",
     "eslint-plugin-react": ">=7.14.3",
     "eslint-plugin-react-hooks": ">=4.0.0"
   },
   "peerDependenciesMeta": {
+    "@vitest/eslint-plugin": {
+      "optional": true
+    },
     "eslint-import-resolver-webpack": {
       "optional": true
     },
     "eslint-plugin-angular": {
-      "optional": true
-    },
-    "eslint-plugin-bdd": {
       "optional": true
     },
     "eslint-plugin-import": {
