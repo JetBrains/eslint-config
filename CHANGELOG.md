@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/JetBrains/eslint-config/compare/v5.4.2...v6.0.0) (2024-10-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **test:** you need to update your dependencies if you're using @jetbrains/eslint-config/test
+
+### Features
+
+* **test:** replace eslint-plugin-bdd peer dependency with @vitest/eslint-plugin to support Eslint 9 ([676e431](https://github.com/JetBrains/eslint-config/commit/676e4315a8df719deb5f3c9add160de78ffff205))
+
 ### [5.4.2](https://github.com/JetBrains/eslint-config/compare/v5.4.1...v5.4.2) (2024-04-11)
 
 
