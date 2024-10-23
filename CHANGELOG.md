@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.1](https://github.com/JetBrains/eslint-config/compare/v6.0.0...v6.0.1) (2024-10-23)
+
+
+### Bug Fixes
+
+* **[publish]:** remove deprecated formatting rules ([2436767](https://github.com/JetBrains/eslint-config/commit/243676792ac3ebe1302297853646cf1fe4504528))
+
 ## [6.0.0](https://github.com/JetBrains/eslint-config/compare/v5.4.2...v6.0.0) (2024-10-14)
 
 
