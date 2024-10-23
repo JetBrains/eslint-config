@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.2](https://github.com/JetBrains/eslint-config/compare/v6.0.1...v6.0.2) (2024-10-23)
+
+
+### Bug Fixes
+
+* **react:** bring INDENT constant back ([b2899a4](https://github.com/JetBrains/eslint-config/commit/b2899a4808119b1f67bba4b4d27369bc63843f78))
+
 ### [6.0.1](https://github.com/JetBrains/eslint-config/compare/v6.0.0...v6.0.1) (2024-10-23)
 
 
