@@ -5,6 +5,5 @@ module.exports = {
   error: 2,
 
   // constants
-  INDENT: 2,
-  MAX_SPECIFICITY: 7
+  MAX_SPECIFICITY: 7,
 };
