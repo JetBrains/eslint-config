@@ -1,10 +1,9 @@
-const {ignore, error, MAX_SPECIFICITY} = require('./consts');
+const { ignore, error, MAX_SPECIFICITY } = require('./consts');
 
 module.exports = {
   rules: {
     // Possible Errors
     'getter-return': error,
-    'comma-dangle': [error, 'never'],
     'no-cond-assign': [error, 'except-parens'],
     'no-console': error,
     'no-constant-condition': error,
@@ -17,8 +16,6 @@ module.exports = {
     'no-empty': error,
     'no-ex-assign': error,
     'no-extra-boolean-cast': error,
-    'no-extra-parens': [error, 'functions'],
-    'no-extra-semi': error,
     'no-func-assign': error,
     'no-inner-declarations': error,
     'no-invalid-regexp': error,
@@ -39,7 +36,6 @@ module.exports = {
     'consistent-return': error,
     curly: [error, 'all'],
     'default-case': error,
-    'dot-location': [error, 'object'],
     'dot-notation': error,
     eqeqeq: [error, 'allow-null'],
     'guard-for-in': error,
@@ -53,7 +49,6 @@ module.exports = {
     'no-extend-native': error,
     'no-extra-bind': error,
     'no-fallthrough': error,
-    'no-floating-decimal': error,
     'no-implicit-coercion': ignore,
     'no-implied-eval': error,
     'no-invalid-this': ignore,
@@ -61,8 +56,7 @@ module.exports = {
     'no-labels': error,
     'no-lone-blocks': error,
     'no-loop-func': error,
-    'no-magic-numbers': [error, {ignore: [-1, 0, 1]}],
-    'no-multi-spaces': error,
+    'no-magic-numbers': [error, { ignore: [-1, 0, 1] }],
     'no-multi-str': error,
     'no-native-reassign': error,
     'no-new-func': error,
@@ -87,7 +81,6 @@ module.exports = {
     'no-with': error,
     radix: error,
     'vars-on-top': error,
-    'wrap-iife': error,
     yoda: error,
     /// Strict Mode
     strict: [error, 'never'],
@@ -101,7 +94,7 @@ module.exports = {
     'no-undef-init': error,
     'no-undef': error,
     'no-undefined': ignore,
-    'no-unused-vars': [error, {ignoreRestSiblings: true}],
-    'no-use-before-define': [error, 'nofunc']
-  }
+    'no-unused-vars': [error, { ignoreRestSiblings: true }],
+    'no-use-before-define': [error, 'nofunc'],
+  },
 };
