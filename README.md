@@ -6,7 +6,7 @@
 
 `@jetbrains` basic and style rules<br />
 `@jetbrains/eslint-config/base` basic rules<br />
-`@jetbrains/eslint-config/style` style rules ⚠️ Deprecated <br />
+`@jetbrains/eslint-config/style` style rules<br />
 `@jetbrains/eslint-config/browser` browser rules and environment<br />
 `@jetbrains/eslint-config/es6` ES6 rules and environment, including [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)<br /> 
 `@jetbrains/eslint-config/node` Node.js rules and environment<br />
