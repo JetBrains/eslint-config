@@ -28,7 +28,7 @@
     "standard-version": "^9.0.0"
   },
   "peerDependencies": {
-    "@vitest/eslint-plugin": ">=2.1.1",
+    "@vitest/eslint-plugin": ">=1.0.0",
     "eslint": ">=6.0.0",
     "eslint-import-resolver-webpack": ">=0.13.0",
     "eslint-plugin-angular": ">=3.3.0",
